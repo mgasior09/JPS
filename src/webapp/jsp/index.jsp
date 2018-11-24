@@ -1,3 +1,4 @@
+<%@ page import="java.time.LocalDate" %>
 <%@page language="java" contentType="text/html" %>
 <html>
 <head>
@@ -17,6 +18,11 @@ Nasz pierwszy jsp
         }
     }
 %>
+
+
+<h1><%=LocalDate.now().toString()%>
+</h1>
+
 
 </body>
 </html>
